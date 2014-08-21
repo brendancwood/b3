@@ -1,0 +1,68 @@
+.moreButton{
+	color:rgba(255,255,255,0.8);
+}
+.moreButton.a.hover{
+	color:rgba(255,255,255,1);
+}
+a:hover{
+	color:white;
+}
+.myFace{
+	border-radius: 100px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+footer{
+	background-color: #000;
+}
+.text-white{
+	color: white;
+}
+.input-group[class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.portfolio{
+	background-color: #EFDECD;
+}
+.btn-custom{
+	background-color: black;
+	color: white;
+	border-radius: 0;
+}
+.btn-custom:hover{
+	background-color: #428bca;
+	color: white;
+}
+.box-hover{
+	opacity: 0;
+	position: absolute;
+	display:block;
+	text-align: center;
+	background-color: #428bca;
+}
+.portfolio-item{
+	position: relative;
+	top:0;
+}
+.portfolio-description{
+	color:white;
+	font-size: 2em;
+	text-align: center;
+	margin-top:25%;
+}
+.modal-header{
+	background-color: #428bca;
+}
+.modal-body{
+	background-color: #EFDECD;
+}
+.modal-title{
+	color: white;
+}
+.scalePicture{
+    -ms-transform: scale(2,2); /* IE 9 */
+    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+    transform: scale(2,2);
+}
